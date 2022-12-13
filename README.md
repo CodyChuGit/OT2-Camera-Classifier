@@ -7,7 +7,7 @@ This project was created in Juypter Notebook
 This program has 5 sub programs/actions:
 
 1. Master_Image_Perspective_Correction:
-A source image is taken from a "Master" OT-2 robot. This image serves as a ground truth that future images will reference so all collected data is aligned, regardless of variation in manufacturing camera positioning.
+A source image is taken from a "Master" OT-2 robot. This image serves as a ground truth that future images will reference so all collected data are aligned, regardless of variation in manufacturing camera positioning.
 
 2. External_Image_Alignment_And_Transform_Getter:
 Extract transform matrix from aligning contrast markers from future images so that collected images are aligned
