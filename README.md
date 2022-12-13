@@ -1,15 +1,10 @@
 # OT2-Camera-Classifier
 
-Most of human errors occur while setting up the machine. Vision is a direct source of truth that can confirm setup conditions and increase reliability by reducing setup errors. This is n exploration of how to potentially use the OT-2 onboard camera unit to confirm setup conditions.
+Most of human errors occur while setting up the machine. Vision is a direct source of truth that can confirm setup conditions and increase reliability by reducing setup errors. This is an exploration of how to potentially use the OT-2 onboard camera unit to confirm setup conditions. This project was created in Juypter Notebook while employed at Opentrons.
 
-This project was created in Juypter Notebook while employed at Opentrons.
-
-300+ image training data library can be accessed in OT2-Camera-Classifier/Machine_Learning/data
+A sample 300+ image training data library can be accessed in OT2-Camera-Classifier/Machine_Learning/data
 
 All save and source directories should be modified to suit your system setup
-
-
-
 
 This program has 5 sub programs/actions:
 
