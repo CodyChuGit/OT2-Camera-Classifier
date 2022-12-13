@@ -13,7 +13,7 @@ https://support.opentrons.com/s/article/Using-the-OT-2-s-camera
 
 
 
-This project is based on opensource projects:
+This project is based heavily on opensource projects utilizing tensorflow and openCV:
 
 https://github.com/nicknochnack/ImageClassification/blob/main/Getting%20Started.ipynb
 
