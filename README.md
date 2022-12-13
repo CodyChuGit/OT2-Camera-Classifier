@@ -4,7 +4,7 @@ Most of human errors occur while setting up the machine. Vision is a direct sour
 
 A sample 300+ image training data library can be accessed in OT2-Camera-Classifier/Machine_Learning/data
 
-Follow this install tutorial to setup tensor flow on your machine:
+Follow this install tutorial to setup tensor flow on your machine. Pip install is risky and is not recommended to enable GPU:
 
 https://www.tensorflow.org/install
 
