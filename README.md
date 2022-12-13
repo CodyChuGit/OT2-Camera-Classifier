@@ -8,6 +8,8 @@ This project was created in Juypter Notebook
 All save and source directories should be modified to suit your system setup
 
 
+
+
 This program has 5 sub programs/actions:
 
 1. Master_Image_Perspective_Correction:
@@ -28,13 +30,20 @@ Use tensorflow to train an existing image classifier model to determin if a futu
 The result is a trained model "labwareclassifier.h5", capable of classfifing an image as a "deck slot with a labware" or an "empty deck slot" and directly used. This trained model has been tested, and the results show 100% reliability in classifying these image catagories. The potential of using this feature could expand to misplaced labware detection and labware identity confirmation easily with additional collected data.
 
 
-Follow this install tutorial to setup tensor flow:
+
+
+
+Follow this install tutorial to setup tensor flow on your machine:
 
 https://www.tensorflow.org/install
 
 To take images from the OT-2 camera, follow this guide:
 
 https://support.opentrons.com/s/article/Using-the-OT-2-s-camera
+
+
+
+
 
 This project is based on opensource projects:
 
