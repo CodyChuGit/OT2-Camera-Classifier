@@ -1,9 +1,12 @@
 # Opentrons-Camera
 An exploration of usage potential for the OT-2 onboard camera unit
 
-This program has 3 steps:
+This program has 5 steps:
 
-1. data collection
+1. image manipulation
+2. image alignment
+3. image segmentation
+4. data collection
 2. data parsing
 3. training.
 
