@@ -4,7 +4,31 @@ Most of human errors occur while setting up the machine. Vision is a direct sour
 
 A sample 300+ image training data library can be accessed in OT2-Camera-Classifier/Machine_Learning/data
 
+Follow this install tutorial to setup tensor flow on your machine:
+
+https://www.tensorflow.org/install
+
+To take images from the OT-2 camera, follow this guide:
+
+https://support.opentrons.com/s/article/Using-the-OT-2-s-camera
+
+
+
+
+
+This project is based on opensource projects:
+
+https://github.com/nicknochnack/ImageClassification/blob/main/Getting%20Started.ipynb
+
+https://learnopencv.com/image-alignment-ecc-in-opencv-c-python/
+
+https://docs.opencv.org/4.x/examples.html
+
 All save and source directories should be modified to suit your system setup
+
+
+
+
 
 This program has 5 sub programs/actions:
 
@@ -26,25 +50,3 @@ Use tensorflow to train an existing image classifier model to determin if a futu
 The result is a trained model "labwareclassifier.h5", capable of classifying an image as a "deck slot with a labware" or an "empty deck slot" and directly used. This trained model has been tested, and the results show 100% reliability in classifying these image catagories. The potential of using this feature could expand to misplaced labware detection and labware identity confirmation easily with additional collected data.
 
 This tranied model can be directly used with "Use_Trained_Model.ipynb" to classfiy new images without the bloat of the above code used to validate the results and collect data.
-
-
-
-Follow this install tutorial to setup tensor flow on your machine:
-
-https://www.tensorflow.org/install
-
-To take images from the OT-2 camera, follow this guide:
-
-https://support.opentrons.com/s/article/Using-the-OT-2-s-camera
-
-
-
-
-
-This project is based on opensource projects:
-
-https://github.com/nicknochnack/ImageClassification/blob/main/Getting%20Started.ipynb
-
-https://learnopencv.com/image-alignment-ecc-in-opencv-c-python/
-
-https://docs.opencv.org/4.x/examples.html
