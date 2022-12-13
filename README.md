@@ -29,8 +29,8 @@ All save and source directories should be modified to suit your system setup
 
 
 
-**
-This program has 5 sub programs/actions:**
+
+# This program has 5 sub programs/actions:
 
 **1. Master_Image_Perspective_Correction:**
 A source image is taken from a "Master" OT-2 robot. This image serves as a ground truth that future images will reference so all collected data are aligned, regardless of variation in manufacturing camera positioning.
