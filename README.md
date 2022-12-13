@@ -21,6 +21,8 @@ User must manually parse their collected images and place them in Opentrons-Came
 5. Training_and_Learned_Model_Export:
 Use tensorflow to train an existing image classifier model to determin if a future image is of one descriminator class or another.
 
+The result is a trained model "labwareclassifier.h5", capable of classfifing an image as a "deck slot with a labware" or an "empty deck slot" and directly used. This trained model has been tested, and the results show 100% reliability in classifying these image catagories. The potential of using this feature could expand to misplaced labware detection and labware identity confirmation easily with additional collected data.
+
 
 Follow this install tutorial to setup tensor flow
 https://www.tensorflow.org/install
