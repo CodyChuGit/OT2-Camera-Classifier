@@ -28,7 +28,7 @@ A sample 300+ image training data library can be accessed in OT2-Camera-Classifi
 # This demo has 5 sub programs/actions:
 
 **1. Master_Image_Perspective_Correction:**
-A source image is taken from a "Master" OT-2 robot. This image serves as a ground truth that future images will reference so all collected data are aligned, regardless of variation in manufacturing camera positioning.
+A source image is taken from a "Master" OT-2 robot. This image serves as a ground truth that future images will reference so all collected data sets are aligned, regardless of variation in manufacturing camera positioning. This creates an apples to apples comparison across all hmanufactured OT-2's.
 
 **2. External_Image_Alignment_And_Transform_Getter:**
 Extract transform matrix from aligning contrast markers from future images to master image so that collected images are aligned rectilinearly to the deck.There is an image segmenter used to display the resulting image and see if the results are satisfactory. You must copy the transform matrx manually and input it into "External_Image_Transformer_and_Segmentation" in line 56 "TransformArrayMatch = np.float32([place array here])"
