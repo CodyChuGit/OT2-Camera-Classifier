@@ -18,4 +18,5 @@ https://support.opentrons.com/s/article/Using-the-OT-2-s-camera
 
 This project is based on opensource projects:
 https://github.com/nicknochnack/ImageClassification/blob/main/Getting%20Started.ipynb
+https://learnopencv.com/image-alignment-ecc-in-opencv-c-python/
 https://docs.opencv.org/4.x/examples.html
