@@ -1,9 +1,9 @@
-# Opentrons-Camera
+# OT2-Camera-Classifier
 An exploration of usage potential for the OT-2 onboard camera unit
 
 This project was created in Juypter Notebook
 
-300+ image training data library can be accessed in OT-2-Camera-Classifier/Machine_Learning/data
+300+ image training data library can be accessed in OT2-Camera-Classifier/Machine_Learning/data
 
 All save and source directories should be modified to suit your system setup
 
