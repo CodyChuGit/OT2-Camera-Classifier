@@ -2,18 +2,15 @@
 
 Most of human errors occur while setting up the machine. Vision is a direct source of truth that can confirm setup conditions and increase reliability by reducing setup errors. This is an exploration of how to potentially use the OT-2 onboard camera unit to confirm setup conditions. This project was created in Juypter Notebook while employed at Opentrons.
 
-Follow this install tutorial to setup tensor flow on your machine. Pip install is risky and is not recommended if you want to enable GPU:
+**Follow this install tutorial to setup tensor flow on your machine. Pip install is risky and is not recommended if you want to enable GPU:**
 
 https://www.tensorflow.org/install
 
-To take images from the OT-2 camera, follow this guide:
+**To take images from the OT-2 camera, follow this guide:**
 
 https://support.opentrons.com/s/article/Using-the-OT-2-s-camera
 
-
-
-
-This project is based heavily on opensource projects utilizing tensorflow and openCV:
+**This project is based heavily on opensource projects utilizing tensorflow and openCV:**
 
 https://github.com/nicknochnack/ImageClassification/blob/main/Getting%20Started.ipynb
 
@@ -22,6 +19,7 @@ https://learnopencv.com/image-alignment-ecc-in-opencv-c-python/
 https://docs.opencv.org/4.x/examples.html
 
 All save and source directories should be modified to suit your system setup
+
 A sample 300+ image training data library can be accessed in OT2-Camera-Classifier/Machine_Learning/data
 
 
