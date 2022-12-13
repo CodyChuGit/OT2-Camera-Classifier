@@ -1,6 +1,6 @@
 # OT2-Camera-Classifier
 
-Most of human errors occur while setting up the machine. Vision is a direct source of truth that can confirm setup conditions and increase reliability by reducing setup errors. This is an exploration of how to potentially use the OT-2 onboard camera unit to confirm setup conditions. This project was created in Juypter Notebook while employed at Opentrons.
+Most of human errors occur dring the setup process. Vision is a direct source of truth that can confirm setup conditions and increase reliability by reducing setup errors. This is an exploration of how to potentially use the OT-2 onboard camera unit to confirm setup conditions. This project was created in Juypter Notebook while employed at Opentrons.
 
 **Follow this install tutorial to setup tensor flow on your machine. Pip install is risky and is not recommended if you want to enable GPU:**
 
