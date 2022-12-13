@@ -25,7 +25,7 @@ Use tensorflow to train an existing image classifier model to determin if a futu
 
 The result is a trained model "labwareclassifier.h5", capable of classifying an image as a "deck slot with a labware" or an "empty deck slot" and directly used. This trained model has been tested, and the results show 100% reliability in classifying these image catagories. The potential of using this feature could expand to misplaced labware detection and labware identity confirmation easily with additional collected data.
 
-
+This tranied model can be directly used with "Use_Trained_Model.py" to classfiy new images without the bloat of the above code used to validate the results and collect data.
 
 
 
