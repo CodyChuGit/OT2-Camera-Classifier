@@ -10,7 +10,7 @@ This program has 5 sub programs/actions:
 A source image is taken from a "Master" OT-2 robot. This image serves as a ground truth that future images will reference so all collected data are aligned, regardless of variation in manufacturing camera positioning.
 
 2. External_Image_Alignment_And_Transform_Getter:
-Extract transform matrix from aligning contrast markers from future images so that collected images are aligned
+Extract transform matrix from aligning contrast markers from future images to master image so that collected images are aligned rectilinearly to the deck
 
 3. External_Image_Transformer_and_Segmentation:
 Applies the transform from "External_Image_Alignment_and_Transform_Getter" to an external image, archieves the sgemented image for manual data parsing.
