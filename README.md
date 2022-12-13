@@ -3,7 +3,7 @@ An exploration of usage potential for the OT-2 onboard camera unit
 
 This project was created in Juypter Notebook
 
-300 image training data library can be accessed in Opentrons-Camera/Machine_Learning/data
+300+ image training data library can be accessed in Opentrons-Camera/Machine_Learning/data
 
 
 This program has 5 sub programs/actions:
